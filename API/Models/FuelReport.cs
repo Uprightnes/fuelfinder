@@ -19,14 +19,15 @@ namespace API.Models
         public int? QueueTime { get; set; }
 
         [Column(TypeName = "decimal(9,6)")]
-        public string Reportlatitude { get; set; }
+        public decimal Reportlatitude { get; set; } // Changed to decimal
 
         [Column(TypeName = "decimal(9,6)")]
-        public string Reportlongitude { get; set; }
+        public decimal Reportlongitude { get; set; } // Changed to decimal
+
         public string CreatedBy { get; set; }
         public DateTime CreatedOn { get; set; }
         public bool isSoftDeleted { get; set; }
         public string ModifiedBy { get; set; }
-        public DateTime ModifiedOn { get; set; }
+        public DateTime? ModifiedOn { get; set; }
     }
 }

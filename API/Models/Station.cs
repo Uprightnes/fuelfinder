@@ -25,7 +25,7 @@ namespace API.Models
         public DateTime CreatedOn { get; set; }
         public bool isSoftDeleted { get; set; }
         public string ModifiedBy { get; set; }
-        public DateTime ModifiedOn { get; set; }
+        public DateTime? ModifiedOn { get; set; }
 
     }
 }

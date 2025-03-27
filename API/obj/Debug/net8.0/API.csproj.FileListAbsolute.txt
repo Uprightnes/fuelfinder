@@ -133,6 +133,7 @@ C:\Users\uprightness.eziukwu\Documents\phed\FuelFinder\FuelFinderAPI\API\obj\Deb
 C:\Users\uprightness.eziukwu\Documents\phed\FuelFinder\FuelFinderAPI\API\obj\Debug\net8.0\API.csproj.CoreCompileInputs.cache
 C:\Users\uprightness.eziukwu\Documents\phed\FuelFinder\FuelFinderAPI\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\uprightness.eziukwu\Documents\phed\FuelFinder\FuelFinderAPI\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\uprightness.eziukwu\Documents\phed\FuelFinder\FuelFinderAPI\API\obj\Debug\net8.0\API.sourcelink.json
 C:\Users\uprightness.eziukwu\Documents\phed\FuelFinder\FuelFinderAPI\API\obj\Debug\net8.0\scopedcss\bundle\API.styles.css
 C:\Users\uprightness.eziukwu\Documents\phed\FuelFinder\FuelFinderAPI\API\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\uprightness.eziukwu\Documents\phed\FuelFinder\FuelFinderAPI\API\obj\Debug\net8.0\staticwebassets.development.json
@@ -143,10 +144,10 @@ C:\Users\uprightness.eziukwu\Documents\phed\FuelFinder\FuelFinderAPI\API\obj\Deb
 C:\Users\uprightness.eziukwu\Documents\phed\FuelFinder\FuelFinderAPI\API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API.props
 C:\Users\uprightness.eziukwu\Documents\phed\FuelFinder\FuelFinderAPI\API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API.props
 C:\Users\uprightness.eziukwu\Documents\phed\FuelFinder\FuelFinderAPI\API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\uprightness.eziukwu\Documents\phed\FuelFinder\FuelFinderAPI\API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\uprightness.eziukwu\Documents\phed\FuelFinder\FuelFinderAPI\API\obj\Debug\net8.0\API.csproj.Up2Date
 C:\Users\uprightness.eziukwu\Documents\phed\FuelFinder\FuelFinderAPI\API\obj\Debug\net8.0\API.dll
 C:\Users\uprightness.eziukwu\Documents\phed\FuelFinder\FuelFinderAPI\API\obj\Debug\net8.0\refint\API.dll
 C:\Users\uprightness.eziukwu\Documents\phed\FuelFinder\FuelFinderAPI\API\obj\Debug\net8.0\API.pdb
 C:\Users\uprightness.eziukwu\Documents\phed\FuelFinder\FuelFinderAPI\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\uprightness.eziukwu\Documents\phed\FuelFinder\FuelFinderAPI\API\obj\Debug\net8.0\ref\API.dll
-C:\Users\uprightness.eziukwu\Documents\phed\FuelFinder\FuelFinderAPI\API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

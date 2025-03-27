@@ -8,9 +8,8 @@ namespace API.Data
         public ApplicationDbContext CreateDbContext(string[] args)
         {
             var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
-            optionsBuilder.UseSqlServer(
-                @"Server=PHEDITLT34302\SQLEXPRESS;Database=fuelfinder;Trusted_Connection=True;TrustServerCertificate=True;");
-
+            var connectionString = "Server=PHEDITLT34302\\SQLEXPRESS;Database=fuelfinder;Trusted_Connection=True;TrustServerCertificate=True;";
+            optionsBuilder.UseSqlServer(connectionString);
             return new ApplicationDbContext(optionsBuilder.Options);
         }
     }
