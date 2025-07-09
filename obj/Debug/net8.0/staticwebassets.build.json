@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "XJHcOadltQfNE1XNeUlVbz1eogF4AbDlGtKbj73gNGc=",
+  "Source": "FuelFinderApi",
+  "BasePath": "_content/FuelFinderApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

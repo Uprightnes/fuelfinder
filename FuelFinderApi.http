@@ -1,0 +1,6 @@
+@FuelFinderApi_HostAddress = http://localhost:5258
+
+GET {{FuelFinderApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
