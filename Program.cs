@@ -28,14 +28,14 @@ builder.Services.Configure<OverpassApiSettings>
     (builder.Configuration
     .GetSection("OverpassApi"));
 
-builder.Services.AddIdentity<FuelFinderUser, IdentityRole>(options => 
-{
-    options.Password.RequireNonAlphanumeric = true;
-    options.Password.RequireDigit = true;
-    options.Password.RequireLowercase = true;
-    options.Password.RequireUppercase = true;
-    options.Password.RequiredLength = 8;
-}).AddEntityFrameworkStores<ApplicationDBContext>();
+//builder.Services.AddIdentity<FuelFinderUser, IdentityRole>(options => 
+//{
+//    options.Password.RequireNonAlphanumeric = true;
+//    options.Password.RequireDigit = true;
+//    options.Password.RequireLowercase = true;
+//    options.Password.RequireUppercase = true;
+//    options.Password.RequiredLength = 8;
+//}).AddEntityFrameworkStores<ApplicationDBContext>();
 
 builder.Services.AddAuthentication(options =>
 {

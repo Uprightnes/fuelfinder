@@ -1,8 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity;
-
-namespace FuelFinderApi.Models
+﻿namespace FuelFinderApi.Models
 {
-    public class FuelFinderUser : IdentityUser
+    public class FuelFinderUser 
     {
         public Guid FuelFinderUserId { get; set; }
         public string Username { get; set; }

@@ -1,10 +1,9 @@
 ﻿using FuelFinderApi.Models;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace FuelFinderApi.Data
 {
-    public class ApplicationDBContext : IdentityDbContext<FuelFinderUser>
+    public class ApplicationDBContext : DbContext
     {
         public ApplicationDBContext(DbContextOptions dbContextOptions) : base(dbContextOptions)
         {

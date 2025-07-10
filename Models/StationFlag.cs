@@ -2,7 +2,7 @@
 {
     public class StationFlag
     {
-        public Guid FlagId { get; set; }
+        public Guid StationFlagId { get; set; }
         public Guid StationId { get; set; }
         public Station Station { get; set; } = null!;
         public Guid FuelFinderUserId { get; set; }

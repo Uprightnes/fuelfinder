@@ -9,7 +9,7 @@ namespace FuelFinderApi.Mappers
         {
             return new StationFlag
             {
-                FlagId = Guid.NewGuid(),
+                StationFlagId = Guid.NewGuid(),
                 StationId = stationId,
                 FuelFinderUserId = userId,
                 Reason = dto.Reason,
