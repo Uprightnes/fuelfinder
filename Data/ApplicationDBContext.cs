@@ -13,5 +13,6 @@ namespace FuelFinderApi.Data
         public DbSet<Station> Stations { get; set; }
         public DbSet<FuelReport> FuelReports { get; set; }
         public DbSet<StationFlag> StationFlags { get; set; }
+        public DbSet<FuelReportVote> FuelReportVotes { get; set; }
     }
 }

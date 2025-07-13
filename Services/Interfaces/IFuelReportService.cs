@@ -1,4 +1,5 @@
-﻿using FuelFinderApi.DTOs;
+﻿using System.Security.Claims;
+using FuelFinderApi.DTOs;
 
 namespace FuelFinderApi.Services.Interfaces
 {
@@ -6,6 +7,6 @@ namespace FuelFinderApi.Services.Interfaces
     {
         Task<FuelReportResponseDTO> SubmitReportAsync(FuelReportRequestDTO request, Guid userId);
         Task<IEnumerable<FuelReportResponseDTO>> GetReportsAsync(Guid? stationId);
-        Task VoteOnReportAsync(Guid reportId, FuelReportVoteRequestDTO request);
+        Task VoteOnReportAsync(Guid reportId, FuelReportVoteRequestDTO request, ClaimsPrincipal user);
     }
 }

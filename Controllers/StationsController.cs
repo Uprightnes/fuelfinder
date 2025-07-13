@@ -18,9 +18,9 @@ namespace FuelFinderApi.Controllers
         }
 
         [HttpGet("nearby")]
-        public async Task<ActionResult<IEnumerable<StationResponseDTO>>> GetNearbyStations(decimal latitude, decimal longitude)
+        public async Task<ActionResult<IEnumerable<StationResponseDTO>>> GetNearbyStations(decimal latitude, decimal longitude, double radius)
         {
-            var stations = await _stationService.GetNearbyStationsAsync(latitude, longitude);
+            var stations = await _stationService.GetNearbyStationsAsync(latitude, longitude, radius);
             return Ok(stations);
         }
 

@@ -13,7 +13,8 @@
         public bool IsSoftDeleted { get; set; } 
         public bool IsActive { get; set; }
         public bool IsVerified { get; set; }
-        public string? RefreshToken { get; set; } 
+        public string? RefreshToken { get; set; }
+        public string Role { get; set; }
         public DateTime? RefreshTokenExpiry { get; set; }
         public ICollection<StationFlag> StationFlags { get; set; } = new List<StationFlag>();
         public ICollection<FuelReport> FuelReports { get; set; } = new List<FuelReport>();

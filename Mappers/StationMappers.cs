@@ -13,7 +13,7 @@ namespace FuelFinderApi.Mappers
             {
                 StationId = Guid.NewGuid(),
                 StationName = dto.StationName,
-                PlaceId = dto.PlaceId,
+                PlaceId = string.IsNullOrEmpty(dto.PlaceId) ? Guid.NewGuid().ToString() : dto.PlaceId,
                 StationAddress = dto.StationAddress,
                 StationLatitude = dto.StationLatitude,
                 StationLongitude = dto.StationLongitude,

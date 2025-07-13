@@ -1,6 +1,8 @@
-﻿using FuelFinderApi.Data;
+﻿using System.Security.Claims;
+using FuelFinderApi.Data;
 using FuelFinderApi.DTOs;
 using FuelFinderApi.Mappers;
+using FuelFinderApi.Models;
 using FuelFinderApi.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
@@ -57,28 +59,47 @@ namespace FuelFinderApi.Services
             .ToListAsync();
         }
 
-        public async Task VoteOnReportAsync(Guid reportId, FuelReportVoteRequestDTO request)
+
+        public async Task VoteOnReportAsync(Guid reportId, FuelReportVoteRequestDTO request, ClaimsPrincipal user)
         {
+            var userIdClaim = user.FindFirst(ClaimTypes.NameIdentifier) ?? user.FindFirst("sub") ?? user.FindFirst("userId");
+
+            if (userIdClaim == null || !Guid.TryParse(userIdClaim.Value, out Guid userId))
+                throw new UnauthorizedAccessException("User ID not found or invalid.");
+
             var report = await _context.FuelReports
                 .Include(r => r.FuelFinderUser)
                 .FirstOrDefaultAsync(r => r.FuelReportId == reportId && !r.IsSoftDeleted);
             if (report == null)
-            {
                 throw new KeyNotFoundException("Report not found.");
-            }
 
-            report.VoteCount++;
-            if (!request.IsCorrect)
+            if (report.FuelFinderUserId == userId)
+                throw new UnauthorizedAccessException("Cannot vote on your own report.");
+
+            var existingVote = await _context.FuelReportVotes
+                .FirstOrDefaultAsync(v => v.FuelReportId == reportId && v.FuelFinderUserId == userId && !v.IsSoftDeleted);
+            if (existingVote != null)
             {
-                report.IsCorrect = false;
-                report.FuelFinderUser.ReputationScore = Math.Max(0, report.FuelFinderUser.ReputationScore - 10);
+                if (existingVote.IsUpvote == request.IsCorrect)
+                    return;
+                report.VoteCount += request.IsCorrect ? 2 : -2; 
+                existingVote.IsUpvote = request.IsCorrect;
+                existingVote.ModifiedOn = DateTime.UtcNow;
             }
             else
             {
-                report.FuelFinderUser.ReputationScore += 5;
+                var vote = FuelReportVoteMapper.CreateFromRequest(request, reportId, userId);
+                _context.FuelReportVotes.Add(vote);
+                report.VoteCount += request.IsCorrect ? 1 : -1;
             }
+
+            report.IsCorrect = report.VoteCount >= 5;
+            report.FuelFinderUser.ReputationScore += request.IsCorrect ? 5 : -10;
+            report.FuelFinderUser.ReputationScore = Math.Max(0, report.FuelFinderUser.ReputationScore);
 
             await _context.SaveChangesAsync();
         }
+
+      
     }
 }

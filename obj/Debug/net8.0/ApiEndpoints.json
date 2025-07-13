@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "FuelFinderApi.Controllers.AdminController",
+    "Method": "ResolveFlag",
+    "RelativePath": "api/admin/flags/resolve",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stationFlagId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FuelFinderApi.Controllers.AdminController",
+    "Method": "ApproveStaion",
+    "RelativePath": "api/admin/stations/approve",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StationId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FuelFinderApi.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
@@ -187,6 +219,11 @@
       {
         "Name": "longitude",
         "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "radius",
+        "Type": "System.Double",
         "IsRequired": false
       }
     ],

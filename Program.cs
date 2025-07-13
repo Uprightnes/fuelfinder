@@ -61,12 +61,18 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("Admin", policy => policy.RequireClaim("Role", "Admin"));
+});
+
 
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IStationService, StationService>();
 builder.Services.AddScoped<IFuelReportService, FuelReportService>();
 builder.Services.AddScoped<IStationFlagService, StationFlagService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IAdminService, AdminService>();
 
 
 var app = builder.Build();

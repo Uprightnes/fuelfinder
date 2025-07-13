@@ -18,7 +18,8 @@ namespace FuelFinderApi.Mappers
                 CreatedAt = DateTime.UtcNow,
                 IsActive = true,
                 IsVerified = false,
-                IsSoftDeleted = false
+                IsSoftDeleted = false,
+                Role = "User"
             };
         }
 

@@ -1,7 +1,9 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
+using System.Text.RegularExpressions;
 using FuelFinderApi.Data;
 using FuelFinderApi.DTOs;
+using FuelFinderApi.Exceptions;
 using FuelFinderApi.Mappers;
 using FuelFinderApi.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -27,6 +29,10 @@ namespace FuelFinderApi.Services
             if (await _context.FuelFinderUsers.AnyAsync(u => u.Email == request.Email && !u.IsSoftDeleted))
             {
                 throw new InvalidOperationException("User already exists.");
+            }
+            if (!Regex.IsMatch(request.Email, @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"))
+            {
+                throw new InvalidFormatException("Invalid email format.");
             }
 
             string passwordHash;

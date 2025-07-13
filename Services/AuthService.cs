@@ -77,7 +77,8 @@ namespace FuelFinderApi.Services
             {
                 new Claim(JwtRegisteredClaimNames.Sub, user.FuelFinderUserId.ToString()),
                 new Claim(JwtRegisteredClaimNames.Name, user.Username),
-                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim("Role", user.Role)
             };
 
             var token = new JwtSecurityToken(
