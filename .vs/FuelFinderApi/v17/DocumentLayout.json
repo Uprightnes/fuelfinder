@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\services\\stationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:services\\stationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\controllers\\stationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:controllers\\stationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\services\\fuelreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:services\\fuelreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\controllers\\fuelreportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:controllers\\fuelreportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\services\\interfaces\\ifuelreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:services\\interfaces\\ifuelreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\mappers\\fuelreportvotemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:mappers\\fuelreportvotemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\mappers\\fuelreportmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:mappers\\fuelreportmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\models\\fuelreportvote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,32 +47,12 @@
       "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:mappers\\stationflagmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\services\\fuelreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:services\\fuelreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\mappers\\fuelreportvotemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:mappers\\fuelreportvotemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\dtos\\fuelreportvotedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:dtos\\fuelreportvotedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\mappers\\fuelreportmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:mappers\\fuelreportmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\mappers\\stationmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:mappers\\stationmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\services\\interfaces\\ifuelreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:services\\interfaces\\ifuelreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,18 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\controllers\\stationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:controllers\\stationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\services\\stationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|solutionrelative:services\\stationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E861745-1815-419F-ACE8-8166B0A738BB}|FuelFinderApi.csproj|c:\\users\\uprightness.eziukwu\\documents\\phed\\fuelfinder\\fuelfinderapi\\services\\interfaces\\istationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -146,37 +146,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FuelReportVote.cs",
-              "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Models\\FuelReportVote.cs",
-              "RelativeDocumentMoniker": "Models\\FuelReportVote.cs",
-              "ToolTip": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Models\\FuelReportVote.cs",
-              "RelativeToolTip": "Models\\FuelReportVote.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "IFuelReportService.cs",
+              "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Services\\Interfaces\\IFuelReportService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IFuelReportService.cs",
+              "ToolTip": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Services\\Interfaces\\IFuelReportService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IFuelReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T16:31:36.533Z",
+              "WhenOpened": "2025-07-13T16:34:24.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StationFlagMapper.cs",
-              "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Mappers\\StationFlagMapper.cs",
-              "RelativeDocumentMoniker": "Mappers\\StationFlagMapper.cs",
-              "ToolTip": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Mappers\\StationFlagMapper.cs",
-              "RelativeToolTip": "Mappers\\StationFlagMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "StationService.cs",
+              "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Services\\StationService.cs",
+              "RelativeDocumentMoniker": "Services\\StationService.cs",
+              "ToolTip": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Services\\StationService.cs",
+              "RelativeToolTip": "Services\\StationService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T00:42:48.412Z",
+              "WhenOpened": "2025-07-09T08:18:15.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FuelReportService.cs",
+              "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Services\\FuelReportService.cs",
+              "RelativeDocumentMoniker": "Services\\FuelReportService.cs",
+              "ToolTip": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Services\\FuelReportService.cs",
+              "RelativeToolTip": "Services\\FuelReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T22:27:21.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FuelReportsController.cs",
+              "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Controllers\\FuelReportsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FuelReportsController.cs",
+              "ToolTip": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Controllers\\FuelReportsController.cs",
+              "RelativeToolTip": "Controllers\\FuelReportsController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAEwDMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T08:17:51.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "FuelReportVoteMapper.cs",
+              "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Mappers\\FuelReportVoteMapper.cs",
+              "RelativeDocumentMoniker": "Mappers\\FuelReportVoteMapper.cs",
+              "ToolTip": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Mappers\\FuelReportVoteMapper.cs",
+              "RelativeToolTip": "Mappers\\FuelReportVoteMapper.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwB8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:39:22.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T00:23:34.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADgvyYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T10:33:53.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StationsController.cs",
+              "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Controllers\\StationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StationsController.cs",
+              "ToolTip": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Controllers\\StationsController.cs",
+              "RelativeToolTip": "Controllers\\StationsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADgvxUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T22:45:10.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "FuelReportMappers.cs",
               "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Mappers\\FuelReportMappers.cs",
               "RelativeDocumentMoniker": "Mappers\\FuelReportMappers.cs",
@@ -189,59 +267,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FuelReportService.cs",
-              "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Services\\FuelReportService.cs",
-              "RelativeDocumentMoniker": "Services\\FuelReportService.cs",
-              "ToolTip": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Services\\FuelReportService.cs",
-              "RelativeToolTip": "Services\\FuelReportService.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAADgv2kAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "StationFlagMapper.cs",
+              "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Mappers\\StationFlagMapper.cs",
+              "RelativeDocumentMoniker": "Mappers\\StationFlagMapper.cs",
+              "ToolTip": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Mappers\\StationFlagMapper.cs",
+              "RelativeToolTip": "Mappers\\StationFlagMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T22:27:21.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T00:42:48.412Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "IFuelReportService.cs",
-              "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Services\\Interfaces\\IFuelReportService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IFuelReportService.cs",
-              "ToolTip": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Services\\Interfaces\\IFuelReportService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IFuelReportService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "FuelReportVote.cs",
+              "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Models\\FuelReportVote.cs",
+              "RelativeDocumentMoniker": "Models\\FuelReportVote.cs",
+              "ToolTip": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Models\\FuelReportVote.cs",
+              "RelativeToolTip": "Models\\FuelReportVote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T16:34:24.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T16:31:36.533Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAiwFsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T10:33:53.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FuelReportsController.cs",
-              "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Controllers\\FuelReportsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FuelReportsController.cs",
-              "ToolTip": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Controllers\\FuelReportsController.cs",
-              "RelativeToolTip": "Controllers\\FuelReportsController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAIAzwDMAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T08:17:51.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "FuelReportVoteDTO.cs",
               "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\DTOs\\FuelReportVoteDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\FuelReportVoteDTO.cs",
@@ -249,25 +299,11 @@
               "RelativeToolTip": "DTOs\\FuelReportVoteDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T16:37:28.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T16:37:28.99Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FuelReportVoteMapper.cs",
-              "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Mappers\\FuelReportVoteMapper.cs",
-              "RelativeDocumentMoniker": "Mappers\\FuelReportVoteMapper.cs",
-              "ToolTip": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Mappers\\FuelReportVoteMapper.cs",
-              "RelativeToolTip": "Mappers\\FuelReportVoteMapper.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T16:39:22.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "StationMappers.cs",
               "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Mappers\\StationMappers.cs",
               "RelativeDocumentMoniker": "Mappers\\StationMappers.cs",
@@ -275,12 +311,11 @@
               "RelativeToolTip": "Mappers\\StationMappers.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwCUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T11:54:07.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T11:54:07.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "StationFlagService.cs",
               "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Services\\StationFlagService.cs",
               "RelativeDocumentMoniker": "Services\\StationFlagService.cs",
@@ -293,20 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "StationsController.cs",
-              "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Controllers\\StationsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StationsController.cs",
-              "ToolTip": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Controllers\\StationsController.cs",
-              "RelativeToolTip": "Controllers\\StationsController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T22:45:10.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Services\\AuthService.cs",
@@ -319,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ApplicationDBContext.cs",
               "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Data\\ApplicationDBContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDBContext.cs",
@@ -327,12 +349,11 @@
               "RelativeToolTip": "Data\\ApplicationDBContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T10:22:53.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T10:22:53.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "StationFlagController.cs",
               "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Controllers\\StationFlagController.cs",
               "RelativeDocumentMoniker": "Controllers\\StationFlagController.cs",
@@ -345,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "FuelReport.cs",
               "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Models\\FuelReport.cs",
               "RelativeDocumentMoniker": "Models\\FuelReport.cs",
@@ -353,12 +374,11 @@
               "RelativeToolTip": "Models\\FuelReport.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T13:10:45.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T13:10:45.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "UserMappers.cs",
               "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Mappers\\UserMappers.cs",
               "RelativeDocumentMoniker": "Mappers\\UserMappers.cs",
@@ -366,12 +386,11 @@
               "RelativeToolTip": "Mappers\\UserMappers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T13:41:17.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T13:41:17.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
@@ -384,19 +403,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T00:23:34.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 21,
               "Title": "Station.cs",
               "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Models\\Station.cs",
@@ -405,21 +411,7 @@
               "RelativeToolTip": "Models\\Station.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T13:11:12.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "StationService.cs",
-              "DocumentMoniker": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Services\\StationService.cs",
-              "RelativeDocumentMoniker": "Services\\StationService.cs",
-              "ToolTip": "C:\\Users\\uprightness.eziukwu\\Documents\\phed\\FuelFinder\\FuelFinderApi\\Services\\StationService.cs",
-              "RelativeToolTip": "Services\\StationService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T08:18:15.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T13:11:12.724Z"
             },
             {
               "$type": "Document",
@@ -431,8 +423,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-09T11:56:03.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T11:56:03.497Z"
             },
             {
               "$type": "Document",
@@ -444,8 +435,7 @@
               "RelativeToolTip": "Services\\Interfaces\\IStationService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAB3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T13:25:31.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T13:25:31.858Z"
             },
             {
               "$type": "Document",
@@ -457,8 +447,7 @@
               "RelativeToolTip": "Models\\FuelFinderUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T10:11:34.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T10:11:34.205Z"
             },
             {
               "$type": "Document",
@@ -470,8 +459,7 @@
               "RelativeToolTip": "Services\\Interfaces\\IAdminService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T10:05:06.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T10:05:06.88Z"
             },
             {
               "$type": "Document",
@@ -483,8 +471,7 @@
               "RelativeToolTip": "Services\\AdminService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T10:05:28.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T10:05:28.937Z"
             },
             {
               "$type": "Document",
@@ -496,8 +483,7 @@
               "RelativeToolTip": "Controllers\\AdminController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAcwB4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T10:41:53.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T10:41:53.354Z"
             },
             {
               "$type": "Document",
@@ -521,8 +507,7 @@
               "RelativeToolTip": "Exceptions\\ConflictException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T09:32:34.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T09:32:34.516Z"
             },
             {
               "$type": "Document",
@@ -534,8 +519,7 @@
               "RelativeToolTip": "DTOs\\TokenResponseDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T13:31:41.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T13:31:41.085Z"
             },
             {
               "$type": "Document",

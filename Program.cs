@@ -28,6 +28,9 @@ builder.Services.Configure<OverpassApiSettings>
     (builder.Configuration
     .GetSection("OverpassApi"));
 
+
+//builder.Services.AddHttpContextAccessor();
+
 //builder.Services.AddIdentity<FuelFinderUser, IdentityRole>(options => 
 //{
 //    options.Password.RequireNonAlphanumeric = true;
