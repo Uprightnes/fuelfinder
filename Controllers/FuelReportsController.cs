@@ -39,9 +39,13 @@ namespace FuelFinderApi.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<FuelReportResponseDTO>>> GetReports(Guid? stationId)
+        public async Task<ActionResult<IEnumerable<FuelReportResponseDTO>>> GetReports(int page = 1, int size = 20, Guid? stationId = null)
         {
-            var reports = await _fuelReportService.GetReportsAsync(stationId);
+            if (page < 1 || size < 1)
+            {
+                return BadRequest("Invalid page or size parameters.");
+            }
+            var reports = await _fuelReportService.GetReportsAsync(page, size, stationId);
             return Ok(reports);
         }
 

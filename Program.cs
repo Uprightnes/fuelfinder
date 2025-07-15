@@ -28,6 +28,9 @@ builder.Services.Configure<OverpassApiSettings>
     (builder.Configuration
     .GetSection("OverpassApi"));
 
+builder.Services.Configure<NavigationSettings>
+    (builder.Configuration.
+    GetSection("NavigationSettings"));
 
 //builder.Services.AddHttpContextAccessor();
 

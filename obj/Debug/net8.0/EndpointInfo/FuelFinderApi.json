@@ -10,16 +10,25 @@
         "tags": [
           "Admin"
         ],
-        "parameters": [
-          {
-            "name": "StationId",
-            "in": "query",
-            "schema": {
-              "type": "string",
-              "format": "uuid"
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApproveStationDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApproveStationDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApproveStationDTO"
+              }
             }
           }
-        ],
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -197,6 +206,24 @@
           "FuelReports"
         ],
         "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "size",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 20
+            }
+          },
           {
             "name": "stationId",
             "in": "query",
@@ -525,6 +552,16 @@
   },
   "components": {
     "schemas": {
+      "ApproveStationDTO": {
+        "type": "object",
+        "properties": {
+          "stationId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      },
       "FuelReportRequestDTO": {
         "type": "object",
         "properties": {
@@ -684,6 +721,10 @@
           },
           "isApproved": {
             "type": "boolean"
+          },
+          "navigationUrl": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

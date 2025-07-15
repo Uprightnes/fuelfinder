@@ -1,4 +1,5 @@
-﻿using FuelFinderApi.Services.Interfaces;
+﻿using FuelFinderApi.DTOs;
+using FuelFinderApi.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
@@ -19,9 +20,9 @@ namespace FuelFinderApi.Controllers
         }
 
         [HttpPost("stations/approve")]
-        public async Task<IActionResult> ApproveStaion(Guid StationId)
+        public async Task<IActionResult> ApproveStaion(ApproveStationDTO approveStation)
         {
-            await _adminService.ApproveStationAsync(StationId);
+            await _adminService.ApproveStationAsync(approveStation.StationId);
             return Ok();
         }
 

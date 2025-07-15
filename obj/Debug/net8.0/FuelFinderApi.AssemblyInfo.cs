@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FuelFinderApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a8039fa1df894895829bfeac5afb5dc797bb77d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d4bdbecaec4aab8fbed56714a3be1b954eec187")]
 [assembly: System.Reflection.AssemblyProductAttribute("FuelFinderApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FuelFinderApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

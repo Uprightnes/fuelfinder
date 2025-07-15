@@ -17,7 +17,7 @@ namespace FuelFinderApi.Mappers
                 ReputationScore = 100,
                 CreatedAt = DateTime.UtcNow,
                 IsActive = true,
-                IsVerified = false,
+                IsVerified = true, //i will change it if i eventually add payment (dont forget pleease - 7/15/2025:5:37am)
                 IsSoftDeleted = false,
                 Role = "User"
             };

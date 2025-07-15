@@ -24,7 +24,7 @@ namespace FuelFinderApi.Mappers
             };
         }
 
-        public static StationResponseDTO ToDto(this Station station)
+        public static StationResponseDTO ToDto(this Station station, decimal userLatitude, decimal userLongitude, string directionsUrl)
         {
             return new StationResponseDTO
             {
@@ -34,7 +34,10 @@ namespace FuelFinderApi.Mappers
                 StationAddress = station.StationAddress,
                 StationLatitude = station.StationLatitude,
                 StationLongitude = station.StationLongitude,
-                IsApproved = station.IsApproved
+                IsApproved = station.IsApproved,
+                NavigationUrl = $"{directionsUrl}?from={userLatitude},{userLongitude}&to={station.StationLatitude},{station.StationLongitude}"
+
+
             };
         }
 

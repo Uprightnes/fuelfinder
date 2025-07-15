@@ -19,14 +19,16 @@ namespace FuelFinderApi.Services
         private readonly ApplicationDBContext _context;
         private readonly HttpClient _httpClient;
         private readonly OverpassApiSettings _overpassSettings;
+        private readonly NavigationSettings _navigationSettings;
         //private readonly HttpContextAccessor _contextAccessor;
 
-        public StationService(ApplicationDBContext context, IHttpClientFactory httpClientFactory, IOptions<OverpassApiSettings> overpassSettings)
+        public StationService(ApplicationDBContext context, IHttpClientFactory httpClientFactory, IOptions<OverpassApiSettings> overpassSettings, IOptions<NavigationSettings> navigationSettings)
         {
             _context = context;
             _httpClient = httpClientFactory.CreateClient();
             _overpassSettings = overpassSettings.Value;
-            
+            _navigationSettings = navigationSettings.Value;
+
         }
 
 
@@ -47,7 +49,7 @@ namespace FuelFinderApi.Services
 
             var nearbyStations = stations
                 .Where(s => CalculateDistance(latitude, longitude, s.StationLatitude, s.StationLongitude) <= radius)
-                .Select(s => s.ToDto())
+                .Select(s => s.ToDto(latitude, longitude, _navigationSettings.DirectionsUrl))
                 .ToList();
 
             if (!nearbyStations.Any())
@@ -106,7 +108,7 @@ namespace FuelFinderApi.Services
                
                 nearbyStations = updatedStations
                     .Where(s => CalculateDistance(latitude, longitude, s.StationLatitude, s.StationLongitude) <= radius)
-                    .Select(s => s.ToDto())
+                    .Select(s => s.ToDto(latitude, longitude, _navigationSettings.DirectionsUrl))
                     .ToList();
             }
 
@@ -150,7 +152,9 @@ namespace FuelFinderApi.Services
                     StationName = tags.TryGetProperty("name", out var name) ? name.GetString() : "Unknown",
                     StationLatitude = (decimal)element.GetProperty("lat").GetDouble(),
                     StationLongitude = (decimal)element.GetProperty("lon").GetDouble(),
-                    StationAddress = tags.TryGetProperty("addr:full", out var addr) ? addr.GetString() : null
+                    StationAddress = tags.TryGetProperty("addr:full", out var addr) ? addr.GetString() : null,
+                    NavigationUrl = $"{_navigationSettings.DirectionsUrl}?from={latitude},{longitude}&to={(decimal)element.GetProperty("lat").GetDouble()},{(decimal)element.GetProperty("lon").GetDouble()}"
+
                 });
             }
 
@@ -170,7 +174,7 @@ namespace FuelFinderApi.Services
             _context.Stations.Add(station);
             user.Points += 50; 
             await _context.SaveChangesAsync();
-            return station.ToDto();
+            return station.ToDto(request.StationLatitude, request.StationLongitude, _navigationSettings.DirectionsUrl);
         }
 
         

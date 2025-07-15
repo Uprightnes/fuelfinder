@@ -9,6 +9,7 @@
         public decimal StationLongitude { get; set; }
         public string? StationAddress { get; set; }
         public bool IsApproved { get; set; }
+        public string? NavigationUrl { get; set; }
     }
 
 }

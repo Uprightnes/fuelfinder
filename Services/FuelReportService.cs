@@ -42,7 +42,7 @@ namespace FuelFinderApi.Services
             return report.ToDto(station.StationName, user.Username); 
         }
 
-        public async Task<IEnumerable<FuelReportResponseDTO>> GetReportsAsync(Guid? stationId)
+        public async Task<IEnumerable<FuelReportResponseDTO>> GetReportsAsync(int page, int size, Guid? stationId)
         {
             var query = _context.FuelReports
                 .Include(r => r.Station)

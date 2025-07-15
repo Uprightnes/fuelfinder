@@ -24,9 +24,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "StationId",
-        "Type": "System.Guid",
-        "IsRequired": false
+        "Name": "approveStation",
+        "Type": "FuelFinderApi.DTOs.ApproveStationDTO",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -117,6 +117,16 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "size",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
       {
         "Name": "stationId",
         "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
